@@ -1,4 +1,4 @@
-# Video Violence Classification README
+# Violence and Fight Detection using HOG and SVM
 
 This project is a Python-based video violence detection tool that classifies uploaded videos as either violent or non-violent by analyzing extracted video frames. It uses HOG (Histogram of Oriented Gradients) feature extraction and a Support Vector Machine (SVM) classifier for frame classification.
 
@@ -33,8 +33,8 @@ To install the libraries, run:
 4. **Handle Class Imbalance**  
    Class imbalance is managed using Random Over-Sampling to balance the dataset if violent frames are present.
 
-5. **Train Random Forest Classifier**  
-   A Random Forest classifier is trained on the extracted frame features.
+5. **Train SVM Classifier**  
+   An SVM classifier is trained on the extracted frame features.
 
 6. **Predict and Evaluate**  
    The model predicts the class of frames in the test set, reporting accuracy and a classification report if both classes are present.
