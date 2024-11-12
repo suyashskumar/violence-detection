@@ -1,6 +1,6 @@
 # Video Violence Classification README
 
-This project is a Python-based video violence detection tool that classifies uploaded videos as either violent or non-violent by analyzing extracted video frames. It uses HOG (Histogram of Oriented Gradients) feature extraction and a Random Forest classifier for frame classification.
+This project is a Python-based video violence detection tool that classifies uploaded videos as either violent or non-violent by analyzing extracted video frames. It uses HOG (Histogram of Oriented Gradients) feature extraction and a Support Vector Machine (SVM) classifier for frame classification.
 
 ## Prerequisites
 
